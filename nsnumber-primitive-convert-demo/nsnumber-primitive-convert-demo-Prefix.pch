@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'nsnumber-primitive-convert-demo' target in the 'nsnumber-primitive-convert-demo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
