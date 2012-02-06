@@ -10,6 +10,12 @@
 		8BA6DDC614DFC75200CE652B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA6DDC514DFC75200CE652B /* Foundation.framework */; };
 		8BA6DDC914DFC75200CE652B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDC814DFC75200CE652B /* main.m */; };
 		8BA6DDCD14DFC75200CE652B /* nsnumber_primitive_convert_demo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BA6DDCC14DFC75200CE652B /* nsnumber_primitive_convert_demo.1 */; };
+		8BA6DDDF14DFC7DE00CE652B /* PrimitiveIntToNSIntegerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDD414DFC7DE00CE652B /* PrimitiveIntToNSIntegerDemo.m */; };
+		8BA6DDE014DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDD614DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.m */; };
+		8BA6DDE114DFC7DE00CE652B /* NSIntegerToNSNumberDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDD814DFC7DE00CE652B /* NSIntegerToNSNumberDemo.m */; };
+		8BA6DDE214DFC7DE00CE652B /* NSNumberToNSIntegerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDDA14DFC7DE00CE652B /* NSNumberToNSIntegerDemo.m */; };
+		8BA6DDE314DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDDC14DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.m */; };
+		8BA6DDE414DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6DDDE14DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +35,20 @@
 		8BA6DDC114DFC75200CE652B /* nsnumber-primitive-convert-demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "nsnumber-primitive-convert-demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA6DDC514DFC75200CE652B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BA6DDC814DFC75200CE652B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BA6DDCB14DFC75200CE652B /* nsnumber-primitive-convert-demo-Prefix.pch */ = {isa = PBXFileReference; path = "nsnumber-primitive-convert-demo-Prefix.pch"; sourceTree = "<group>"; };
+		8BA6DDCB14DFC75200CE652B /* nsnumber-primitive-convert-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nsnumber-primitive-convert-demo-Prefix.pch"; sourceTree = "<group>"; };
 		8BA6DDCC14DFC75200CE652B /* nsnumber_primitive_convert_demo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nsnumber_primitive_convert_demo.1; sourceTree = "<group>"; };
+		8BA6DDD314DFC7D300CE652B /* PrimitiveIntToNSIntegerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimitiveIntToNSIntegerDemo.h; sourceTree = "<group>"; };
+		8BA6DDD414DFC7DE00CE652B /* PrimitiveIntToNSIntegerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitiveIntToNSIntegerDemo.m; sourceTree = "<group>"; };
+		8BA6DDD514DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSIntegerToPrimitiveIntDemo.h; sourceTree = "<group>"; };
+		8BA6DDD614DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSIntegerToPrimitiveIntDemo.m; sourceTree = "<group>"; };
+		8BA6DDD714DFC7DE00CE652B /* NSIntegerToNSNumberDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSIntegerToNSNumberDemo.h; sourceTree = "<group>"; };
+		8BA6DDD814DFC7DE00CE652B /* NSIntegerToNSNumberDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSIntegerToNSNumberDemo.m; sourceTree = "<group>"; };
+		8BA6DDD914DFC7DE00CE652B /* NSNumberToNSIntegerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberToNSIntegerDemo.h; sourceTree = "<group>"; };
+		8BA6DDDA14DFC7DE00CE652B /* NSNumberToNSIntegerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberToNSIntegerDemo.m; sourceTree = "<group>"; };
+		8BA6DDDB14DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimitiveIntToNSNumberDemo.h; sourceTree = "<group>"; };
+		8BA6DDDC14DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitiveIntToNSNumberDemo.m; sourceTree = "<group>"; };
+		8BA6DDDD14DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberToPrimitiveIntDemo.h; sourceTree = "<group>"; };
+		8BA6DDDE14DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberToPrimitiveIntDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,18 @@
 		8BA6DDCA14DFC75200CE652B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BA6DDD414DFC7DE00CE652B /* PrimitiveIntToNSIntegerDemo.m */,
+				8BA6DDD514DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.h */,
+				8BA6DDD614DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.m */,
+				8BA6DDD714DFC7DE00CE652B /* NSIntegerToNSNumberDemo.h */,
+				8BA6DDD814DFC7DE00CE652B /* NSIntegerToNSNumberDemo.m */,
+				8BA6DDD914DFC7DE00CE652B /* NSNumberToNSIntegerDemo.h */,
+				8BA6DDDA14DFC7DE00CE652B /* NSNumberToNSIntegerDemo.m */,
+				8BA6DDDB14DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.h */,
+				8BA6DDDC14DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.m */,
+				8BA6DDDD14DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.h */,
+				8BA6DDDE14DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.m */,
+				8BA6DDD314DFC7D300CE652B /* PrimitiveIntToNSIntegerDemo.h */,
 				8BA6DDCB14DFC75200CE652B /* nsnumber-primitive-convert-demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -139,6 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA6DDC914DFC75200CE652B /* main.m in Sources */,
+				8BA6DDDF14DFC7DE00CE652B /* PrimitiveIntToNSIntegerDemo.m in Sources */,
+				8BA6DDE014DFC7DE00CE652B /* NSIntegerToPrimitiveIntDemo.m in Sources */,
+				8BA6DDE114DFC7DE00CE652B /* NSIntegerToNSNumberDemo.m in Sources */,
+				8BA6DDE214DFC7DE00CE652B /* NSNumberToNSIntegerDemo.m in Sources */,
+				8BA6DDE314DFC7DE00CE652B /* PrimitiveIntToNSNumberDemo.m in Sources */,
+				8BA6DDE414DFC7DE00CE652B /* NSNumberToPrimitiveIntDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
